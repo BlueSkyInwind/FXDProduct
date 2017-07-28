@@ -10,4 +10,10 @@ import UIKit
 
 class HomeRouter: BaseRouter {
 
+    var loginRouter : LoginRouter?
+
+    func pushViewControllerToLogin() ->  Void {
+           
+        loginRouter?.pushViewControllerFromController(viewController: self.viewController!)
+    }
 }

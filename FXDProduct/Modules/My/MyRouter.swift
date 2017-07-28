@@ -9,5 +9,11 @@
 import UIKit
 
 class MyRouter: BaseHandler {
-
+    
+    var loginRouter : LoginRouter?
+    
+    func pushViewControllerToLogin() ->  Void {
+        
+        loginRouter?.pushViewControllerFromController(viewController: self.viewController!)
+    }
 }

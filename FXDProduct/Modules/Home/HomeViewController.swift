@@ -8,12 +8,29 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class HomeViewController: BaseViewController {
+    
+    var homeHandler : HomeHandler?
+    
+   let productListTableView : UITableView = {
+        let tableView = UITableView.init(frame: CGRect.zero, style: UITableViewStyle.plain)
+        return tableView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.red
+        homeHandler = HomeHandler.init()
+        
+        self.productListTableView.delegate = homeHandler
+        self.productListTableView.dataSource = homeHandler
+        self.view.addSubview(productListTableView)
+        productListTableView.snp.makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
+        
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {

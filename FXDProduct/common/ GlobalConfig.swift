@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SnapKit
 
 //TODO 设备信息获取
 let  _k_w = UIScreen.main.bounds.size.width

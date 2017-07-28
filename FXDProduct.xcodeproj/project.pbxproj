@@ -36,6 +36,13 @@
 		843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B01F28CF8400EACC9A /* MyHandler.swift */; };
 		843436B31F28CF9E00EACC9A /* MoreRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B21F28CF9D00EACC9A /* MoreRouter.swift */; };
 		843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B41F28CFB300EACC9A /* MoreHandler.swift */; };
+		846EE8451F2ACE45004EC08C /* AppColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846EE8441F2ACE45004EC08C /* AppColors.plist */; };
+		846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8481F2B29D3004EC08C /* LoginViewController.swift */; };
+		846EE84B1F2B2A51004EC08C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84A1F2B2A51004EC08C /* LoginRouter.swift */; };
+		846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */; };
+		846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */; };
+		846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */; };
+		846EE8531F2B2BC2004EC08C /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */; };
 		84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +99,13 @@
 		843436B01F28CF8400EACC9A /* MyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHandler.swift; sourceTree = "<group>"; };
 		843436B21F28CF9D00EACC9A /* MoreRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreRouter.swift; sourceTree = "<group>"; };
 		843436B41F28CFB300EACC9A /* MoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreHandler.swift; sourceTree = "<group>"; };
+		846EE8441F2ACE45004EC08C /* AppColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppColors.plist; sourceTree = "<group>"; };
+		846EE8481F2B29D3004EC08C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		846EE84A1F2B2A51004EC08C /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterHandler.swift; sourceTree = "<group>"; };
+		846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
 		84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		88E3534A172180A101C66481 /* Pods-FXDProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		CF5A7F60359CC46C807BB37E /* Pods-FXDProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +204,7 @@
 				843436551F28AC4B00EACC9A /* Main.storyboard */,
 				8434365A1F28AC4B00EACC9A /* LaunchScreen.storyboard */,
 				8434365D1F28AC4B00EACC9A /* Info.plist */,
+				846EE8441F2ACE45004EC08C /* AppColors.plist */,
 			);
 			path = FXDProduct;
 			sourceTree = "<group>";
@@ -215,6 +230,8 @@
 		8434367F1F28ACF200EACC9A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				846EE8471F2B2947004EC08C /* Register */,
+				846EE8461F2B2922004EC08C /* Login */,
 				843436A31F28CD1B00EACC9A /* More */,
 				843436A21F28CD0200EACC9A /* My */,
 				843436A11F28CC8900EACC9A /* Home */,
@@ -307,6 +324,26 @@
 				843436B21F28CF9D00EACC9A /* MoreRouter.swift */,
 			);
 			path = More;
+			sourceTree = "<group>";
+		};
+		846EE8461F2B2922004EC08C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				846EE8481F2B29D3004EC08C /* LoginViewController.swift */,
+				846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */,
+				846EE84A1F2B2A51004EC08C /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		846EE8471F2B2947004EC08C /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */,
+				846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */,
+				846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846EE8451F2ACE45004EC08C /* AppColors.plist in Resources */,
 				8434365C1F28AC4B00EACC9A /* LaunchScreen.storyboard in Resources */,
 				843436591F28AC4B00EACC9A /* Assets.xcassets in Resources */,
 				843436571F28AC4B00EACC9A /* Main.storyboard in Resources */,
@@ -498,12 +536,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				843436A01F28CAE800EACC9A /* APPColor.swift in Sources */,
+				846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */,
 				843436541F28AC4B00EACC9A /* ViewController.swift in Sources */,
 				8434369A1F28C06100EACC9A /* BaseRouter.swift in Sources */,
+				846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */,
+				846EE8531F2B2BC2004EC08C /* RegisterRouter.swift in Sources */,
 				843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */,
+				846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */,
 				843436521F28AC4B00EACC9A /* AppDelegate.swift in Sources */,
 				843436AF1F28CF6A00EACC9A /* MyRouter.swift in Sources */,
 				843436A51F28CEBB00EACC9A /* HomeViewController.swift in Sources */,
+				846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */,
 				843436AB1F28CF3600EACC9A /* HomeRouter.swift in Sources */,
 				843436A71F28CEC800EACC9A /* MyViewController.swift in Sources */,
 				843436881F28AEE300EACC9A /* BaseViewController.swift in Sources */,
@@ -514,6 +557,7 @@
 				843436961F28BF7E00EACC9A /* BaseNavigationViewController.swift in Sources */,
 				843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */,
 				8434369C1F28C07B00EACC9A /* BaseHandler.swift in Sources */,
+				846EE84B1F2B2A51004EC08C /* LoginRouter.swift in Sources */,
 				84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

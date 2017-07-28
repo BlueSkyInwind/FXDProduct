@@ -1,20 +1,19 @@
 //
-//  MyViewController.swift
+//  RegisterViewController.swift
 //  FXDProduct
 //
-//  Created by admin on 2017/7/26.
+//  Created by admin on 2017/7/28.
 //  Copyright © 2017年 admin. All rights reserved.
 //
 
 import UIKit
 
-class MyViewController: BaseViewController {
-    
+class RegisterViewController: BaseViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.yellow
+
         // Do any additional setup after loading the view.
-        
     }
 
     override func didReceiveMemoryWarning() {
