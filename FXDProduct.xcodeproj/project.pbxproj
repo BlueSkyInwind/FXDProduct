@@ -23,26 +23,21 @@
 		843436931F28BE0800EACC9A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434368D1F28BE0800EACC9A /* SnapKit.framework */; };
 		843436941F28BE0800EACC9A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434368E1F28BE0800EACC9A /* SwiftyJSON.framework */; };
 		843436961F28BF7E00EACC9A /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436951F28BF7E00EACC9A /* BaseNavigationViewController.swift */; };
-		8434369A1F28C06100EACC9A /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436991F28C06100EACC9A /* BaseRouter.swift */; };
 		8434369C1F28C07B00EACC9A /* BaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434369B1F28C07B00EACC9A /* BaseHandler.swift */; };
-		8434369E1F28C3BB00EACC9A /*  GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434369D1F28C3BB00EACC9A /*  GlobalConfig.swift */; };
+		8434369E1F28C3BB00EACC9A /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434369D1F28C3BB00EACC9A /* GlobalConfig.swift */; };
 		843436A01F28CAE800EACC9A /* APPColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434369F1F28CAE800EACC9A /* APPColor.swift */; };
 		843436A51F28CEBB00EACC9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436A41F28CEBB00EACC9A /* HomeViewController.swift */; };
 		843436A71F28CEC800EACC9A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436A61F28CEC800EACC9A /* MyViewController.swift */; };
 		843436A91F28CED700EACC9A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436A81F28CED700EACC9A /* MoreViewController.swift */; };
-		843436AB1F28CF3600EACC9A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436AA1F28CF3600EACC9A /* HomeRouter.swift */; };
 		843436AD1F28CF5500EACC9A /* HomeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436AC1F28CF5500EACC9A /* HomeHandler.swift */; };
-		843436AF1F28CF6A00EACC9A /* MyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436AE1F28CF6A00EACC9A /* MyRouter.swift */; };
 		843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B01F28CF8400EACC9A /* MyHandler.swift */; };
-		843436B31F28CF9E00EACC9A /* MoreRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B21F28CF9D00EACC9A /* MoreRouter.swift */; };
 		843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B41F28CFB300EACC9A /* MoreHandler.swift */; };
 		846EE8451F2ACE45004EC08C /* AppColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846EE8441F2ACE45004EC08C /* AppColors.plist */; };
 		846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8481F2B29D3004EC08C /* LoginViewController.swift */; };
-		846EE84B1F2B2A51004EC08C /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84A1F2B2A51004EC08C /* LoginRouter.swift */; };
 		846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */; };
 		846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */; };
 		846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */; };
-		846EE8531F2B2BC2004EC08C /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */; };
+		846F1A631F2F0F60002EA4FE /* APPUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F1A621F2F0F60002EA4FE /* APPUrl.swift */; };
 		84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,26 +81,21 @@
 		8434368D1F28BE0800EACC9A /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FXDProduct-dnfjxclzjkythuakwkrfkzgsbvek/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		8434368E1F28BE0800EACC9A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FXDProduct-dnfjxclzjkythuakwkrfkzgsbvek/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		843436951F28BF7E00EACC9A /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
-		843436991F28C06100EACC9A /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		8434369B1F28C07B00EACC9A /* BaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHandler.swift; sourceTree = "<group>"; };
-		8434369D1F28C3BB00EACC9A /*  GlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " GlobalConfig.swift"; sourceTree = "<group>"; };
+		8434369D1F28C3BB00EACC9A /* GlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
 		8434369F1F28CAE800EACC9A /* APPColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPColor.swift; sourceTree = "<group>"; };
 		843436A41F28CEBB00EACC9A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		843436A61F28CEC800EACC9A /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		843436A81F28CED700EACC9A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		843436AA1F28CF3600EACC9A /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		843436AC1F28CF5500EACC9A /* HomeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHandler.swift; sourceTree = "<group>"; };
-		843436AE1F28CF6A00EACC9A /* MyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRouter.swift; sourceTree = "<group>"; };
 		843436B01F28CF8400EACC9A /* MyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHandler.swift; sourceTree = "<group>"; };
-		843436B21F28CF9D00EACC9A /* MoreRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreRouter.swift; sourceTree = "<group>"; };
 		843436B41F28CFB300EACC9A /* MoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreHandler.swift; sourceTree = "<group>"; };
 		846EE8441F2ACE45004EC08C /* AppColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppColors.plist; sourceTree = "<group>"; };
 		846EE8481F2B29D3004EC08C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		846EE84A1F2B2A51004EC08C /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
 		846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterHandler.swift; sourceTree = "<group>"; };
-		846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		846F1A621F2F0F60002EA4FE /* APPUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPUrl.swift; sourceTree = "<group>"; };
 		84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		88E3534A172180A101C66481 /* Pods-FXDProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		CF5A7F60359CC46C807BB37E /* Pods-FXDProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.release.xcconfig"; sourceTree = "<group>"; };
@@ -243,8 +233,9 @@
 		843436801F28AD2400EACC9A /* common */ = {
 			isa = PBXGroup;
 			children = (
-				8434369D1F28C3BB00EACC9A /*  GlobalConfig.swift */,
+				8434369D1F28C3BB00EACC9A /* GlobalConfig.swift */,
 				8434369F1F28CAE800EACC9A /* APPColor.swift */,
+				846F1A621F2F0F60002EA4FE /* APPUrl.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -290,7 +281,6 @@
 				843436871F28AEE300EACC9A /* BaseViewController.swift */,
 				843436951F28BF7E00EACC9A /* BaseNavigationViewController.swift */,
 				84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */,
-				843436991F28C06100EACC9A /* BaseRouter.swift */,
 				8434369B1F28C07B00EACC9A /* BaseHandler.swift */,
 			);
 			path = baseClass;
@@ -301,7 +291,6 @@
 			children = (
 				843436A41F28CEBB00EACC9A /* HomeViewController.swift */,
 				843436AC1F28CF5500EACC9A /* HomeHandler.swift */,
-				843436AA1F28CF3600EACC9A /* HomeRouter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -311,7 +300,6 @@
 			children = (
 				843436A61F28CEC800EACC9A /* MyViewController.swift */,
 				843436B01F28CF8400EACC9A /* MyHandler.swift */,
-				843436AE1F28CF6A00EACC9A /* MyRouter.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -321,7 +309,6 @@
 			children = (
 				843436A81F28CED700EACC9A /* MoreViewController.swift */,
 				843436B41F28CFB300EACC9A /* MoreHandler.swift */,
-				843436B21F28CF9D00EACC9A /* MoreRouter.swift */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -331,7 +318,6 @@
 			children = (
 				846EE8481F2B29D3004EC08C /* LoginViewController.swift */,
 				846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */,
-				846EE84A1F2B2A51004EC08C /* LoginRouter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -341,7 +327,6 @@
 			children = (
 				846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */,
 				846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */,
-				846EE8521F2B2BC2004EC08C /* RegisterRouter.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -537,27 +522,22 @@
 			files = (
 				843436A01F28CAE800EACC9A /* APPColor.swift in Sources */,
 				846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */,
+				846F1A631F2F0F60002EA4FE /* APPUrl.swift in Sources */,
 				843436541F28AC4B00EACC9A /* ViewController.swift in Sources */,
-				8434369A1F28C06100EACC9A /* BaseRouter.swift in Sources */,
 				846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */,
-				846EE8531F2B2BC2004EC08C /* RegisterRouter.swift in Sources */,
 				843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */,
 				846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */,
 				843436521F28AC4B00EACC9A /* AppDelegate.swift in Sources */,
-				843436AF1F28CF6A00EACC9A /* MyRouter.swift in Sources */,
 				843436A51F28CEBB00EACC9A /* HomeViewController.swift in Sources */,
 				846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */,
-				843436AB1F28CF3600EACC9A /* HomeRouter.swift in Sources */,
 				843436A71F28CEC800EACC9A /* MyViewController.swift in Sources */,
 				843436881F28AEE300EACC9A /* BaseViewController.swift in Sources */,
-				843436B31F28CF9E00EACC9A /* MoreRouter.swift in Sources */,
 				843436AD1F28CF5500EACC9A /* HomeHandler.swift in Sources */,
-				8434369E1F28C3BB00EACC9A /*  GlobalConfig.swift in Sources */,
+				8434369E1F28C3BB00EACC9A /* GlobalConfig.swift in Sources */,
 				843436A91F28CED700EACC9A /* MoreViewController.swift in Sources */,
 				843436961F28BF7E00EACC9A /* BaseNavigationViewController.swift in Sources */,
 				843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */,
 				8434369C1F28C07B00EACC9A /* BaseHandler.swift in Sources */,
-				846EE84B1F2B2A51004EC08C /* LoginRouter.swift in Sources */,
 				84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,6 +700,7 @@
 				);
 				INFOPLIST_FILE = FXDProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hfsj.FXDProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -740,6 +721,7 @@
 				);
 				INFOPLIST_FILE = FXDProduct/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hfsj.FXDProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

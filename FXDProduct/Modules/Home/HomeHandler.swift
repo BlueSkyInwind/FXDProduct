@@ -16,7 +16,7 @@ class HomeHandler: BaseHandler,UITableViewDelegate,UITableViewDataSource {
     
     override init() {
         super.init()
-        self.router  = HomeRouter()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -24,7 +24,7 @@ class HomeHandler: BaseHandler,UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100 
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -36,7 +36,6 @@ class HomeHandler: BaseHandler,UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        (self.router as! HomeRouter).pushViewControllerToLogin()
+        (self.viewController as! HomeViewController).presentLoginVC()
     }
-
 }

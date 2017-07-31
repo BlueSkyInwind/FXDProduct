@@ -11,7 +11,6 @@ import UIKit
 class BaseHandler: NSObject {
 
     var viewController : UIViewController?
-    var router : BaseRouter?
     
     
 }

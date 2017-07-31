@@ -13,8 +13,8 @@ class BaseTabBarViewController: UITabBarController {
     let seleteimageArr = ["home_tab_select","mine_tab_select","more_tab_select"]
     let imageArr = ["home_tab_default","mine_tab_default","more_tab_default"]
     let titleArr = ["首页","我的","更多"]
-//    let vcNameArr = ["HomeViewController","MyViewController","MoreViewController"]
-    let vcNameArr = ["HomeRouter","MyRouter","MoreRouter"]
+    let vcNameArr = ["HomeViewController","MyViewController","MoreViewController"]
+//    let vcNameArr = ["HomeRouter","MyRouter","MoreRouter"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +31,8 @@ class BaseTabBarViewController: UITabBarController {
             if let vc  = NSClassFromString(appname + "." + vcNameArr[i]) as? UIViewController.Type{
                 let viewcontroller  = vc.init()
                 let navVC = BaseNavigationViewController.init(rootViewController: viewcontroller)
-                navVC.tabBarItem = self.tabBarNameAndImage(titleName: titleArr[i], defaultImageName: imageArr[i], selectImageName: seleteimageArr[i])
-                resultArr.add(navVC)
+                    navVC.tabBarItem = self.tabBarNameAndImage(titleName: titleArr[i], defaultImageName: imageArr[i], selectImageName: seleteimageArr[i])
+                    resultArr.add(navVC)
             }
             self.viewControllers =  resultArr as? [UIViewController]
         }

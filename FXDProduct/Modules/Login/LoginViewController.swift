@@ -8,12 +8,12 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.navigationController?.title="登录"
+        self.navigationItem.title="登录"
         
     }
 

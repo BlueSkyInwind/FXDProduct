@@ -14,7 +14,8 @@ class MyViewController: BaseViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.yellow
         // Do any additional setup after loading the view.
-        
+        self.navigationItem.title = "我的"
+
     }
 
     override func didReceiveMemoryWarning() {

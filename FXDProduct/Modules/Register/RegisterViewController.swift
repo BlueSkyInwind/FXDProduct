@@ -12,8 +12,9 @@ class RegisterViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        self.navigationItem.title = "注册"
+
     }
 
     override func didReceiveMemoryWarning() {

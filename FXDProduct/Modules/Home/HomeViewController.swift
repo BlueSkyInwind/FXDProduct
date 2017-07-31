@@ -20,17 +20,30 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red
-        homeHandler = HomeHandler.init()
+        self.navigationItem.title = "发薪贷"
+
+        self.InitializeBusiness()
         
+        print(_main_url)
+        // Do any additional setup after loading the view.
+    }
+    
+    //MARK: 初始化业务
+    func InitializeBusiness() -> Void {
+        homeHandler = HomeHandler.init()
+        homeHandler?.viewController = self
         self.productListTableView.delegate = homeHandler
         self.productListTableView.dataSource = homeHandler
         self.view.addSubview(productListTableView)
         productListTableView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
-        
-        // Do any additional setup after loading the view.
-        
+    }
+    
+    func presentLoginVC() -> Void {
+        let loginVC = LoginViewController.init()
+        let navVC = BaseNavigationViewController.init(rootViewController: loginVC)
+        app?.window?.rootViewController = navVC
     }
 
     override func didReceiveMemoryWarning() {

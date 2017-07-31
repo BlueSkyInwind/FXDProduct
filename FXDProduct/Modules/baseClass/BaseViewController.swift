@@ -13,7 +13,27 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.view.backgroundColor  = UIColor.white
+        self.navigationController?.navigationBar.titleTextAttributes = {[NSFontAttributeName:UIFont.systemFont(ofSize: 19), NSForegroundColorAttributeName:UIColor.white]}()
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage.init(named: "navigation"), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.isTranslucent = true
+    }
+    
+    // MARK:  返回按钮
+    func addBackItem() -> Void {
+        let backButton = UIButton.init(type: UIButtonType.system)
+        let img = UIImage.init(named: "return")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        backButton.setImage(img, for: UIControlState.normal)
+        backButton.frame = CGRect(x:0,y:0,width:45,height:44)
+        backButton.addTarget(self, action:#selector(popBack), for: UIControlEvents.touchUpInside)
+        let item = UIBarButtonItem.init(customView: backButton)
+        let spaceItem = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.fixedSpace, target: nil, action: nil)
+        spaceItem.width = -15
+        self.navigationItem.leftBarButtonItems = [spaceItem,item]
+    }
+    
+    func popBack() -> Void {
+        self.navigationController?.popViewController(animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
