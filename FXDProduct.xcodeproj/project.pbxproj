@@ -38,6 +38,8 @@
 		846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */; };
 		846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */; };
 		846F1A631F2F0F60002EA4FE /* APPUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F1A621F2F0F60002EA4FE /* APPUrl.swift */; };
+		846F1A651F2F1B2B002EA4FE /* APPTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F1A641F2F1B2B002EA4FE /* APPTool.swift */; };
+		846F1A671F2F226A002EA4FE /* FXDNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846F1A661F2F226A002EA4FE /* FXDNetWorkManager.swift */; };
 		84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,8 @@
 		846EE84E1F2B2B89004EC08C /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		846EE8501F2B2BA7004EC08C /* RegisterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterHandler.swift; sourceTree = "<group>"; };
 		846F1A621F2F0F60002EA4FE /* APPUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPUrl.swift; sourceTree = "<group>"; };
+		846F1A641F2F1B2B002EA4FE /* APPTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPTool.swift; sourceTree = "<group>"; };
+		846F1A661F2F226A002EA4FE /* FXDNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXDNetWorkManager.swift; sourceTree = "<group>"; };
 		84C656C61F297B4900F5254A /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		88E3534A172180A101C66481 /* Pods-FXDProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		CF5A7F60359CC46C807BB37E /* Pods-FXDProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FXDProduct.release.xcconfig"; path = "Pods/Target Support Files/Pods-FXDProduct/Pods-FXDProduct.release.xcconfig"; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				8434369D1F28C3BB00EACC9A /* GlobalConfig.swift */,
 				8434369F1F28CAE800EACC9A /* APPColor.swift */,
 				846F1A621F2F0F60002EA4FE /* APPUrl.swift */,
+				846F1A641F2F1B2B002EA4FE /* APPTool.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 		843436811F28AD7600EACC9A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				846F1A661F2F226A002EA4FE /* FXDNetWorkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -524,6 +530,7 @@
 				846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */,
 				846F1A631F2F0F60002EA4FE /* APPUrl.swift in Sources */,
 				843436541F28AC4B00EACC9A /* ViewController.swift in Sources */,
+				846F1A671F2F226A002EA4FE /* FXDNetWorkManager.swift in Sources */,
 				846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */,
 				843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */,
 				846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */,
@@ -535,6 +542,7 @@
 				843436AD1F28CF5500EACC9A /* HomeHandler.swift in Sources */,
 				8434369E1F28C3BB00EACC9A /* GlobalConfig.swift in Sources */,
 				843436A91F28CED700EACC9A /* MoreViewController.swift in Sources */,
+				846F1A651F2F1B2B002EA4FE /* APPTool.swift in Sources */,
 				843436961F28BF7E00EACC9A /* BaseNavigationViewController.swift in Sources */,
 				843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */,
 				8434369C1F28C07B00EACC9A /* BaseHandler.swift in Sources */,

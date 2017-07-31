@@ -8,5 +8,24 @@ target 'FXDProduct' do
       pod 'MBProgressHUD'
       pod 'UMengAnalytics'
       pod 'MJRefresh'
+      pod 'UMengAnalytics'
+      pod 'pop'
+      
+      pod 'ShareSDK3'
+      pod 'ShareSDK3/ShareSDKUI'
+      pod 'ShareSDK3/ShareSDKExtension'
+      pod 'MOBFoundation'
+      # 短信(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/SMS'
+      # 邮件(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/Mail'
+      # 拷贝(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/Copy'
+      # 新浪微博(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+      # 微信(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+      # 腾讯QQ(可选)
+      pod 'ShareSDK3/ShareSDKPlatforms/QQ'
 
 end

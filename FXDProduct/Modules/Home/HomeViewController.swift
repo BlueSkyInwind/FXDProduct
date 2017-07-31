@@ -23,8 +23,6 @@ class HomeViewController: BaseViewController {
         self.navigationItem.title = "发薪贷"
 
         self.InitializeBusiness()
-        
-        print(_main_url)
         // Do any additional setup after loading the view.
     }
     
