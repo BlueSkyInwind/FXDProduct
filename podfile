@@ -10,6 +10,7 @@ target 'FXDProduct' do
       pod 'MJRefresh'
       pod 'UMengAnalytics'
       pod 'pop'
+      pod 'HHAlertView' ,'~> 0.1.0'
       
       pod 'ShareSDK3'
       pod 'ShareSDK3/ShareSDKUI'

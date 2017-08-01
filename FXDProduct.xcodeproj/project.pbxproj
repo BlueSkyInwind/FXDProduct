@@ -32,6 +32,12 @@
 		843436AD1F28CF5500EACC9A /* HomeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436AC1F28CF5500EACC9A /* HomeHandler.swift */; };
 		843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B01F28CF8400EACC9A /* MyHandler.swift */; };
 		843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843436B41F28CFB300EACC9A /* MoreHandler.swift */; };
+		843BE9B31F30164600A0D10B /* APPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9B21F30164600A0D10B /* APPConfig.swift */; };
+		843BE9B51F30212300A0D10B /* APPUtilityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9B41F30212300A0D10B /* APPUtilityInfo.swift */; };
+		843BE9C01F30273E00A0D10B /* HHAlertViewCust.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9BF1F30273E00A0D10B /* HHAlertViewCust.m */; };
+		843BE9C71F302E3C00A0D10B /* MBPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9C61F302E3C00A0D10B /* MBPAlertView.swift */; };
+		843BE9CB1F305FFF00A0D10B /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9CA1F305FFF00A0D10B /* DES3Util.m */; };
+		843BE9D01F30608800A0D10B /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 843BE9CE1F30608800A0D10B /* GTMBase64.m */; };
 		846EE8451F2ACE45004EC08C /* AppColors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846EE8441F2ACE45004EC08C /* AppColors.plist */; };
 		846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE8481F2B29D3004EC08C /* LoginViewController.swift */; };
 		846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */; };
@@ -92,6 +98,17 @@
 		843436AC1F28CF5500EACC9A /* HomeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHandler.swift; sourceTree = "<group>"; };
 		843436B01F28CF8400EACC9A /* MyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHandler.swift; sourceTree = "<group>"; };
 		843436B41F28CFB300EACC9A /* MoreHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreHandler.swift; sourceTree = "<group>"; };
+		843BE9B21F30164600A0D10B /* APPConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPConfig.swift; sourceTree = "<group>"; };
+		843BE9B41F30212300A0D10B /* APPUtilityInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPUtilityInfo.swift; sourceTree = "<group>"; };
+		843BE9BE1F30273E00A0D10B /* HHAlertViewCust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAlertViewCust.h; sourceTree = "<group>"; };
+		843BE9BF1F30273E00A0D10B /* HHAlertViewCust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAlertViewCust.m; sourceTree = "<group>"; };
+		843BE9C51F30286D00A0D10B /* FXDProduct_Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXDProduct_Bridging_Header.h; sourceTree = "<group>"; };
+		843BE9C61F302E3C00A0D10B /* MBPAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPAlertView.swift; sourceTree = "<group>"; };
+		843BE9C91F305FFF00A0D10B /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		843BE9CA1F305FFF00A0D10B /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		843BE9CD1F30608800A0D10B /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		843BE9CE1F30608800A0D10B /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		843BE9CF1F30608800A0D10B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		846EE8441F2ACE45004EC08C /* AppColors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppColors.plist; sourceTree = "<group>"; };
 		846EE8481F2B29D3004EC08C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		846EE84C1F2B2A6F004EC08C /* LoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
@@ -237,10 +254,14 @@
 		843436801F28AD2400EACC9A /* common */ = {
 			isa = PBXGroup;
 			children = (
+				843BE9CC1F30608800A0D10B /* GTMBase64 */,
+				843BE9C81F305FFF00A0D10B /* DES */,
 				8434369D1F28C3BB00EACC9A /* GlobalConfig.swift */,
-				8434369F1F28CAE800EACC9A /* APPColor.swift */,
 				846F1A621F2F0F60002EA4FE /* APPUrl.swift */,
+				8434369F1F28CAE800EACC9A /* APPColor.swift */,
 				846F1A641F2F1B2B002EA4FE /* APPTool.swift */,
+				843BE9B21F30164600A0D10B /* APPConfig.swift */,
+				843BE9B41F30212300A0D10B /* APPUtilityInfo.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -263,6 +284,8 @@
 		843436831F28ADD600EACC9A /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				843BE9C51F30286D00A0D10B /* FXDProduct_Bridging_Header.h */,
+				843BE9BD1F3026F000A0D10B /* CostumView */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -317,6 +340,35 @@
 				843436B41F28CFB300EACC9A /* MoreHandler.swift */,
 			);
 			path = More;
+			sourceTree = "<group>";
+		};
+		843BE9BD1F3026F000A0D10B /* CostumView */ = {
+			isa = PBXGroup;
+			children = (
+				843BE9BE1F30273E00A0D10B /* HHAlertViewCust.h */,
+				843BE9BF1F30273E00A0D10B /* HHAlertViewCust.m */,
+				843BE9C61F302E3C00A0D10B /* MBPAlertView.swift */,
+			);
+			path = CostumView;
+			sourceTree = "<group>";
+		};
+		843BE9C81F305FFF00A0D10B /* DES */ = {
+			isa = PBXGroup;
+			children = (
+				843BE9C91F305FFF00A0D10B /* DES3Util.h */,
+				843BE9CA1F305FFF00A0D10B /* DES3Util.m */,
+			);
+			path = DES;
+			sourceTree = "<group>";
+		};
+		843BE9CC1F30608800A0D10B /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				843BE9CD1F30608800A0D10B /* GTMBase64.h */,
+				843BE9CE1F30608800A0D10B /* GTMBase64.m */,
+				843BE9CF1F30608800A0D10B /* GTMDefines.h */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		846EE8461F2B2922004EC08C /* Login */ = {
@@ -529,16 +581,20 @@
 				843436A01F28CAE800EACC9A /* APPColor.swift in Sources */,
 				846EE84F1F2B2B89004EC08C /* RegisterViewController.swift in Sources */,
 				846F1A631F2F0F60002EA4FE /* APPUrl.swift in Sources */,
+				843BE9B51F30212300A0D10B /* APPUtilityInfo.swift in Sources */,
 				843436541F28AC4B00EACC9A /* ViewController.swift in Sources */,
 				846F1A671F2F226A002EA4FE /* FXDNetWorkManager.swift in Sources */,
 				846EE84D1F2B2A6F004EC08C /* LoginHandler.swift in Sources */,
 				843436B51F28CFB300EACC9A /* MoreHandler.swift in Sources */,
+				843BE9B31F30164600A0D10B /* APPConfig.swift in Sources */,
 				846EE8491F2B29D3004EC08C /* LoginViewController.swift in Sources */,
 				843436521F28AC4B00EACC9A /* AppDelegate.swift in Sources */,
+				843BE9C71F302E3C00A0D10B /* MBPAlertView.swift in Sources */,
 				843436A51F28CEBB00EACC9A /* HomeViewController.swift in Sources */,
 				846EE8511F2B2BA7004EC08C /* RegisterHandler.swift in Sources */,
 				843436A71F28CEC800EACC9A /* MyViewController.swift in Sources */,
 				843436881F28AEE300EACC9A /* BaseViewController.swift in Sources */,
+				843BE9CB1F305FFF00A0D10B /* DES3Util.m in Sources */,
 				843436AD1F28CF5500EACC9A /* HomeHandler.swift in Sources */,
 				8434369E1F28C3BB00EACC9A /* GlobalConfig.swift in Sources */,
 				843436A91F28CED700EACC9A /* MoreViewController.swift in Sources */,
@@ -546,6 +602,8 @@
 				843436961F28BF7E00EACC9A /* BaseNavigationViewController.swift in Sources */,
 				843436B11F28CF8400EACC9A /* MyHandler.swift in Sources */,
 				8434369C1F28C07B00EACC9A /* BaseHandler.swift in Sources */,
+				843BE9C01F30273E00A0D10B /* HHAlertViewCust.m in Sources */,
+				843BE9D01F30608800A0D10B /* GTMBase64.m in Sources */,
 				84C656C71F297B4900F5254A /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +769,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hfsj.FXDProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FXDProduct/Third/FXDProduct_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -732,6 +791,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hfsj.FXDProduct;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FXDProduct/Third/FXDProduct_Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

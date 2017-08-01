@@ -36,6 +36,9 @@ class HomeViewController: BaseViewController {
         productListTableView.snp.makeConstraints { (make) in
             make.edges.equalToSuperview()
         }
+        
+        APPConfig.shareInstance.checkAPPVersion()
+        
     }
     
     func presentLoginVC() -> Void {
